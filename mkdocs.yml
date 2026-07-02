@@ -47,8 +47,8 @@ nav:
       - BrainAmp Setup: sops/brainamp-setup.md
       - Cap Preparation: sops/cap-preparation.md
       - Impedance Check: sops/impedance-check.md
-      - Trigger Test: sops/trigger-test.md
-      - Data Backup: sops/data-backup.md
+      - Marker Verification: sops/trigger-test.md
+      - Session Files: sops/session-files.md
   - Preprocessing:
       - Overview: preprocessing/index.md
   - Reference:
