@@ -77,8 +77,11 @@
 .md-typeset .admonition.checklist,
 .md-typeset details.checklist {
   --md-admonition-color: 184, 92, 46 !important;
-  border-color: #d98245 !important;
+  border: 0.08rem solid #d98245 !important;
+  border-left-width: 0.18rem !important;
+  border-radius: 14px !important;
   box-shadow: 0 3px 14px #f3e4da;
+  overflow: hidden;
 }
 
 .md-typeset .info > .admonition-title,
@@ -97,6 +100,20 @@
 .md-typeset .checklist > summary {
   background-color: #fff1e3 !important;
   color: #3f2b20 !important;
+  border: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.md-typeset details[open] > summary {
+  border-bottom: 1px solid #f0d8c4 !important;
+}
+
+.md-typeset details > summary:focus,
+.md-typeset details > summary:focus-visible,
+.md-typeset details > summary:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .md-typeset .info > .admonition-title::before,
@@ -110,7 +127,6 @@
 .md-typeset .warning > .admonition-title::before,
 .md-typeset .warning > summary::before,
 .md-typeset .tip > .admonition-title::before,
-.md-typeset .tip > summary::before,
 .md-typeset .checklist > .admonition-title::before,
 .md-typeset .checklist > summary::before {
   background-color: #b85c2e !important;
