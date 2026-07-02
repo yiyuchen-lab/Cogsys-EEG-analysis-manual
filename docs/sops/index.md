@@ -31,20 +31,20 @@
 
     [Open](impedance-check.md)
 
--   **Trigger Test**
+-   **Marker Verification**
 
     ---
 
-    Confirm event triggers before recording.
+    Confirm event markers before recording.
 
     [Open](trigger-test.md)
 
--   **Data Backup**
+-   **Session Files**
 
     ---
 
-    Post-session data organization and backup checklist.
+    Post-session file organization and session log checklist.
 
-    [Open](data-backup.md)
+    [Open](session-files.md)
 
 </div>
