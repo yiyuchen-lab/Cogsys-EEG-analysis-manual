@@ -61,3 +61,66 @@
 .md-typeset details > summary {
   font-weight: 700;
 }
+
+.md-typeset .admonition.info,
+.md-typeset details.info,
+.md-typeset .admonition.note,
+.md-typeset details.note,
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract,
+.md-typeset .admonition.question,
+.md-typeset details.question,
+.md-typeset .admonition.warning,
+.md-typeset details.warning,
+.md-typeset .admonition.tip,
+.md-typeset details.tip,
+.md-typeset .admonition.checklist,
+.md-typeset details.checklist {
+  border-color: #d98245;
+  box-shadow: 0 3px 14px #f3e4da;
+}
+
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary,
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary,
+.md-typeset .abstract > .admonition-title,
+.md-typeset .abstract > summary,
+.md-typeset .question > .admonition-title,
+.md-typeset .question > summary,
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary,
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary,
+.md-typeset .checklist > .admonition-title,
+.md-typeset .checklist > summary {
+  background-color: #fff1e3;
+  color: #3f2b20;
+}
+
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before,
+.md-typeset .note > .admonition-title::before,
+.md-typeset .note > summary::before,
+.md-typeset .abstract > .admonition-title::before,
+.md-typeset .abstract > summary::before,
+.md-typeset .question > .admonition-title::before,
+.md-typeset .question > summary::before,
+.md-typeset .warning > .admonition-title::before,
+.md-typeset .warning > summary::before,
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .tip > summary::before,
+.md-typeset .checklist > .admonition-title::before,
+.md-typeset .checklist > summary::before {
+  background-color: #b85c2e;
+}
+
+.md-typeset details.info > summary::after,
+.md-typeset details.note > summary::after,
+.md-typeset details.abstract > summary::after,
+.md-typeset details.question > summary::after,
+.md-typeset details.warning > summary::after,
+.md-typeset details.tip > summary::after,
+.md-typeset details.checklist > summary::after {
+  color: #b85c2e;
+}
