@@ -1,0 +1,63 @@
+:root {
+  --md-primary-fg-color: #b85c2e;
+  --md-primary-fg-color--light: #d98245;
+  --md-primary-fg-color--dark: #7a3519;
+  --md-accent-fg-color: #e08a2e;
+}
+
+.md-header {
+  box-shadow: 0 2px 12px #ead6c8;
+}
+
+.md-nav__link--active {
+  color: #b85c2e;
+}
+
+.md-nav__link:hover {
+  color: #e08a2e;
+}
+
+.cogsys-hero {
+  padding: 2rem;
+  margin-bottom: 1.6rem;
+  border: 1px solid #ead6c8;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #fff7f0 0%, #fffdf9 60%, #f7efe8 100%);
+  box-shadow: 0 8px 28px #ead6c8;
+}
+
+.cogsys-hero h1 {
+  margin-bottom: 0.45rem;
+  color: #7a3519;
+}
+
+.cogsys-hero p {
+  max-width: 760px;
+  margin-bottom: 0;
+  font-size: 1.02rem;
+  color: #4f453e;
+}
+
+.cogsys-kicker {
+  margin-bottom: 0.5rem;
+  color: #b85c2e;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.grid.cards > ul > li {
+  border-color: #ead6c8;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px #f3e4da;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 12px;
+}
+
+.md-typeset details > summary {
+  font-weight: 700;
+}
