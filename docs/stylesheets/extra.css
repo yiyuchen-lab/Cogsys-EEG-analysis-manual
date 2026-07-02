@@ -76,7 +76,8 @@
 .md-typeset details.tip,
 .md-typeset .admonition.checklist,
 .md-typeset details.checklist {
-  border-color: #d98245;
+  --md-admonition-color: 184, 92, 46 !important;
+  border-color: #d98245 !important;
   box-shadow: 0 3px 14px #f3e4da;
 }
 
@@ -94,8 +95,8 @@
 .md-typeset .tip > summary,
 .md-typeset .checklist > .admonition-title,
 .md-typeset .checklist > summary {
-  background-color: #fff1e3;
-  color: #3f2b20;
+  background-color: #fff1e3 !important;
+  color: #3f2b20 !important;
 }
 
 .md-typeset .info > .admonition-title::before,
@@ -112,7 +113,7 @@
 .md-typeset .tip > summary::before,
 .md-typeset .checklist > .admonition-title::before,
 .md-typeset .checklist > summary::before {
-  background-color: #b85c2e;
+  background-color: #b85c2e !important;
 }
 
 .md-typeset details.info > summary::after,
@@ -122,5 +123,5 @@
 .md-typeset details.warning > summary::after,
 .md-typeset details.tip > summary::after,
 .md-typeset details.checklist > summary::after {
-  color: #b85c2e;
+  color: #b85c2e !important;
 }
