@@ -1,0 +1,41 @@
+site_name: CogSys EEG Analysis Manual
+site_description: Internal EEG analysis and preprocessing manual for the CogSys lab
+site_author: Yiyu Chen
+site_url: https://yiyuchen-lab.github.io/Cogsys-EEG-analysis-manual/
+
+repo_name: yiyuchen-lab/Cogsys-EEG-analysis-manual
+repo_url: https://github.com/yiyuchen-lab/Cogsys-EEG-analysis-manual
+
+copyright: Copyright &copy; Yiyu Chen
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Home: index.md
+  - EEG Analysis:
+      - Getting Started with EEG Analysis: eeg/getting-started.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
