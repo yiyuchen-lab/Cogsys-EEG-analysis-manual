@@ -9,32 +9,48 @@
 
 <div class="hardware-grid">
   <div class="hardware-card">
-    <img src="https://brainvision.com/wp-content/uploads/2025/02/P_BAST_PowerPack.jpg" alt="BrainAmp Standard 32ch and PowerPack" />
-    <h3>BrainAmp Standard 32ch + PowerPack</h3>
-    <p><strong>BrainAmp Standard 32ch</strong> is the main EEG amplifier. It receives the EEG signal, amplifies it, digitizes it, and sends the 32-channel recording stream to the acquisition chain.</p>
-    <p><strong>PowerPack</strong> supplies battery power to the amplifier system. Using battery power helps reduce mains-related line noise and keeps the recording chain electrically cleaner and more stable.</p>
-    <p class="hardware-note"><strong>Practical note:</strong> check the PowerPack charge before every session.</p>
+    <div class="hardware-image-wrap">
+      <img src="https://brainvision.com/wp-content/uploads/2025/02/P_BAST_PowerPack.jpg" alt="BrainAmp Standard 32ch and PowerPack" />
+    </div>
+    <div class="hardware-card-body">
+      <h3>BrainAmp Standard 32ch + PowerPack</h3>
+      <p><strong>BrainAmp Standard 32ch</strong> is the main EEG amplifier. It receives the EEG signal, amplifies it, digitizes it, and sends the 32-channel recording stream to the acquisition chain.</p>
+      <p><strong>PowerPack</strong> supplies battery power to the amplifier system. Using battery power helps reduce mains-related line noise and keeps the recording chain electrically cleaner and more stable.</p>
+      <p class="hardware-note"><strong>Practical note:</strong> check the PowerPack charge before every session.</p>
+    </div>
   </div>
 
   <div class="hardware-card">
-    <img src="https://brainvision.com/wp-content/uploads/2026/06/actiCAP_ControlBox.png" alt="actiCAP ControlBox" />
-    <h3>actiCAP ControlBox</h3>
-    <p>The ControlBox is the interface between the active cap system and the amplifier chain. It connects the actiCap to the BrainAmp hardware and enables <strong>actiCAP impedance measurement</strong>.</p>
-    <p class="hardware-note"><strong>Practical note:</strong> if impedance check is unavailable, this is one of the first devices to inspect.</p>
+    <div class="hardware-image-wrap">
+      <img src="https://brainvision.com/wp-content/uploads/2026/06/actiCAP_ControlBox.png" alt="actiCAP ControlBox" />
+    </div>
+    <div class="hardware-card-body">
+      <h3>actiCAP ControlBox</h3>
+      <p>The ControlBox is the interface between the active cap system and the amplifier chain. It connects the actiCap to the BrainAmp hardware and enables <strong>actiCAP impedance measurement</strong>.</p>
+      <p class="hardware-note"><strong>Practical note:</strong> if impedance check is unavailable, this is one of the first devices to inspect.</p>
+    </div>
   </div>
 
   <div class="hardware-card">
-    <img src="../../assets/brainamp/acticap.svg" alt="32-channel actiCap and active electrodes" />
-    <h3>32-channel actiCap + active electrodes</h3>
-    <p>This is the participant-facing EEG cap and electrode set. Each active electrode contains local electronics (a small active circuit / chip) that help buffer the signal close to the scalp and support reliable impedance checking.</p>
-    <p class="hardware-note"><strong>Practical note:</strong> electrode contact quality here directly determines signal quality.</p>
+    <div class="hardware-image-wrap">
+      <img src="../../assets/brainamp/acticap.svg" alt="32-channel actiCap and active electrodes" />
+    </div>
+    <div class="hardware-card-body">
+      <h3>32-channel actiCap + active electrodes</h3>
+      <p>This is the participant-facing EEG cap and electrode set. Each active electrode contains local electronics (a small active circuit / chip) that help buffer the signal close to the scalp and support reliable impedance checking.</p>
+      <p class="hardware-note"><strong>Practical note:</strong> electrode contact quality here directly determines signal quality.</p>
+    </div>
   </div>
 
   <div class="hardware-card">
-    <img src="../../assets/brainamp/usb2-adapter.svg" alt="USB2 Adapter BUA" />
-    <h3>USB2 Adapter (BUA)</h3>
-    <p>The USB2 Adapter is the USB interface between the BrainAmp hardware and the recording computer. It transfers recorded EEG data to <strong>BrainVision Recorder</strong> and also supports trigger / event signal integration into the recording workflow.</p>
-    <p class="hardware-note"><strong>Practical note:</strong> for timing-sensitive experiments, use a separate stimulus computer and recording computer whenever possible.</p>
+    <div class="hardware-image-wrap">
+      <img src="../../assets/brainamp/usb2-adapter.svg" alt="USB2 Adapter BUA" />
+    </div>
+    <div class="hardware-card-body">
+      <h3>USB2 Adapter (BUA)</h3>
+      <p>The USB2 Adapter is the USB interface between the BrainAmp hardware and the recording computer. It transfers recorded EEG data to <strong>BrainVision Recorder</strong> and also supports trigger / event signal integration into the recording workflow.</p>
+      <p class="hardware-note"><strong>Practical note:</strong> for timing-sensitive experiments, use a separate stimulus computer and recording computer whenever possible.</p>
+    </div>
   </div>
 </div>
 
