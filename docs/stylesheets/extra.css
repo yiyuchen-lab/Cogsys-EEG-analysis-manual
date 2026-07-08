@@ -144,12 +144,16 @@
 
 .hardware-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: 1fr;
   gap: 1rem;
   margin: 1rem 0 1.5rem;
 }
 
 .hardware-card {
+  display: grid;
+  grid-template-columns: minmax(180px, 260px) 1fr;
+  gap: 1.1rem;
+  align-items: start;
   padding: 1rem;
   border: 1px solid #ead6c8;
   border-radius: 18px;
@@ -157,12 +161,16 @@
   box-shadow: 0 6px 20px #f3e4da;
 }
 
+.hardware-card > :not(img) {
+  grid-column: 2;
+}
+
 .hardware-card img {
   display: block;
   width: 100%;
   max-height: 220px;
   object-fit: contain;
-  margin: 0 auto 0.9rem;
+  margin: 0;
   padding: 0.5rem;
   border-radius: 14px;
   background: #ffffff;
@@ -220,4 +228,18 @@
 
 .test-card ul {
   margin: 0;
+}
+
+@media (max-width: 860px) {
+  .hardware-card {
+    grid-template-columns: 1fr;
+  }
+
+  .hardware-card > :not(img) {
+    grid-column: 1;
+  }
+
+  .hardware-card img {
+    margin-bottom: 0.4rem;
+  }
 }
