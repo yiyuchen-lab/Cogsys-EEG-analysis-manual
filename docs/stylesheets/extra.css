@@ -162,6 +162,8 @@
 }
 
 .hardware-image-wrap {
+  grid-column: 1 !important;
+  grid-row: 1 !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,6 +183,8 @@
 }
 
 .hardware-card-body {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
   align-self: center;
 }
 
@@ -244,7 +248,14 @@
   }
 
   .hardware-image-wrap {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
     min-height: auto;
+  }
+
+  .hardware-card-body {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
   }
 
   .hardware-image-wrap img {
