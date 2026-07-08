@@ -3,9 +3,6 @@ site_description: Internal EEG analysis and preprocessing manual for the CogSys 
 site_author: Yiyu Chen
 site_url: https://yiyuchen-lab.github.io/Cogsys-EEG-analysis-manual/
 
-repo_name: yiyuchen-lab/Cogsys-EEG-analysis-manual
-repo_url: https://github.com/yiyuchen-lab/Cogsys-EEG-analysis-manual
-
 copyright: Copyright &copy; Yiyu Chen
 
 theme:
