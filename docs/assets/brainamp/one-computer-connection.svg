@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1666" height="514" viewBox="0 0 1666 514" role="img" aria-labelledby="title desc">
+  <title id="title">One-computer BrainAmp connection setup</title>
+  <desc id="desc">Compact connection diagram showing actiCap, actiCAP ControlBox, BrainAmp Standard with PowerPack, USB2 Adapter BUA, and one recording plus stimulus computer.</desc>
+  <defs>
+    <style>
+      .label{font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:700;fill:#111}
+      .sub{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#444}
+      .small{font-family:Arial,Helvetica,sans-serif;font-size:13px;fill:#444}
+      .device{fill:#fff;stroke:#cfd4da;stroke-width:2.2}
+      .soft{fill:#fffaf5;stroke:#ead6c8;stroke-width:1.5}
+      .step{fill:#f36c12}
+      .steptext{font-family:Arial,Helvetica,sans-serif;font-size:22px;font-weight:700;fill:#fff}
+      .port{fill:#171717;stroke:#444;stroke-width:1.2}
+      .green{stroke:#00a651}.blue{stroke:#0b73d9}.purple{stroke:#7b3fb2}.orange{stroke:#ef6c00}.black{stroke:#111}
+      .cable{fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .caption{font-family:Arial,Helvetica,sans-serif;font-size:17px;font-weight:700}
+      .legend-title{font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:700;fill:#222}
+      .legend-sub{font-family:Arial,Helvetica,sans-serif;font-size:12px;fill:#333}
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#d8c5b6" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="panel" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f7f7f7"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" x2="1">
+      <stop offset="0" stop-color="#f8f8f0"/>
+      <stop offset="0.5" stop-color="#eff5e9"/>
+      <stop offset="1" stop-color="#f8f8f0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1666" height="514" fill="#fff"/>
+
+  <!-- Step labels -->
+  <g transform="translate(56 32)"><circle class="step" r="18"/><text class="steptext" x="0" y="7" text-anchor="middle">1</text></g>
+  <text class="label" x="105" y="28">actiCap +</text><text class="label" x="93" y="55">active electrodes</text>
+  <g transform="translate(356 32)"><circle class="step" r="18"/><text class="steptext" x="0" y="7" text-anchor="middle">2</text></g>
+  <text class="label" x="390" y="28">actiCAP</text><text class="label" x="377" y="55">ControlBox</text>
+  <g transform="translate(688 32)"><circle class="step" r="18"/><text class="steptext" x="0" y="7" text-anchor="middle">3</text></g>
+  <text class="label" x="728" y="30">BrainAmp Standard 32ch</text><text class="label" x="785" y="57">+ PowerPack</text>
+  <g transform="translate(1128 32)"><circle class="step" r="18"/><text class="steptext" x="0" y="7" text-anchor="middle">4</text></g>
+  <text class="label" x="1165" y="30">USB2 Adapter /</text><text class="label" x="1205" y="57">BUA</text>
+  <g transform="translate(1408 32)"><circle class="step" r="18"/><text class="steptext" x="0" y="7" text-anchor="middle">5</text></g>
+  <text class="label" x="1450" y="30">Recording + Stimulus</text><text class="label" x="1505" y="57">Computer</text>
+
+  <!-- actiCap head / cap schematic -->
+  <g transform="translate(36 118)" filter="url(#shadow)">
+    <ellipse cx="80" cy="95" rx="60" ry="82" fill="#fff4ed" stroke="#d3a38b" stroke-width="1.5"/>
+    <path d="M25,80 C26,30 62,5 110,18 C145,30 158,70 145,115 C138,140 122,160 98,170 L70,172 C48,162 35,140 25,80Z" fill="#fff" stroke="#333" stroke-width="2"/>
+    <path d="M118,25 C155,34 175,65 178,95 C176,143 145,170 98,178" fill="none" stroke="#222" stroke-width="3"/>
+    <path d="M88,170 C92,205 130,205 143,178" fill="#7b3d22" opacity="0.55"/>
+    <path d="M75,105 C100,114 118,112 136,103" fill="none" stroke="#777" stroke-width="2"/>
+    <circle cx="58" cy="86" r="4" fill="#111"/>
+    <path d="M25,118 C6,118 3,137 22,143" fill="none" stroke="#d08b72" stroke-width="2"/>
+    <path d="M72,170 L72,194 L108,194 L108,178" fill="none" stroke="#ddd" stroke-width="9" stroke-linecap="round"/>
+    <g fill="#f3b01b" stroke="#111" stroke-width="2">
+      <circle cx="42" cy="40" r="6"/><circle cx="75" cy="28" r="6"/><circle cx="112" cy="36" r="6"/>
+      <circle cx="51" cy="70" r="6"/><circle cx="87" cy="65" r="6"/><circle cx="124" cy="73" r="6"/>
+      <circle cx="61" cy="105" r="6"/><circle cx="99" cy="101" r="6"/><circle cx="135" cy="110" r="6"/>
+    </g>
+    <g stroke="#111" stroke-width="1.6" fill="none">
+      <path d="M42,40 C65,25 90,20 112,36"/><path d="M51,70 C75,50 104,52 124,73"/>
+      <path d="M61,105 C86,86 116,90 135,110"/><path d="M75,28 C79,45 83,55 87,65"/>
+      <path d="M112,36 C114,52 120,60 124,73"/>
+    </g>
+  </g>
+
+  <!-- ControlBox -->
+  <g transform="translate(310 112)" filter="url(#shadow)">
+    <rect class="device" width="185" height="260" rx="6" fill="url(#panel)"/>
+    <text class="sub" x="92" y="248" text-anchor="middle" fill="#0b57b7">actiCAP ControlBox</text>
+    <g transform="translate(36 34)">
+      <text class="small" x="-12" y="8">Power</text>
+      <circle cx="8" cy="5" r="5" fill="#111"/>
+      <text class="small" x="130" y="8">Status</text>
+      <circle cx="118" cy="5" r="5" fill="#111"/>
+      <g transform="translate(0 28)">
+        <rect x="36" y="0" width="90" height="10" rx="5" fill="#111"/><circle cx="130" cy="5" r="4" fill="#d71920"/>
+        <text class="small" x="82" y="-5" text-anchor="middle">actiCAP</text>
+      </g>
+      <g transform="translate(0 60)">
+        <rect x="0" y="-10" width="22" height="28" fill="#fff" stroke="#888"/><text class="label" x="11" y="10" text-anchor="middle" font-size="18">2</text>
+        <rect x="36" y="0" width="90" height="10" rx="5" fill="#111"/><circle cx="130" cy="5" r="4" fill="#00a651"/>
+      </g>
+      <g transform="translate(0 92)">
+        <rect x="0" y="-10" width="22" height="28" fill="#fff" stroke="#888"/><text class="label" x="11" y="10" text-anchor="middle" font-size="18">3</text>
+        <rect x="36" y="0" width="90" height="10" rx="5" fill="#111"/><circle cx="130" cy="5" r="4" fill="#00a651"/>
+      </g>
+      <g transform="translate(0 124)">
+        <rect x="0" y="-10" width="22" height="28" fill="#fff" stroke="#888"/><text class="label" x="11" y="10" text-anchor="middle" font-size="18">Z</text>
+        <rect x="36" y="0" width="90" height="10" rx="5" fill="#111"/><circle cx="130" cy="5" r="4" fill="#f36c12"/>
+      </g>
+      <g transform="translate(0 156)">
+        <rect x="0" y="-10" width="22" height="28" fill="#fff" stroke="#888"/><text class="label" x="11" y="10" text-anchor="middle" font-size="18">N</text>
+        <rect x="36" y="0" width="90" height="10" rx="5" fill="#111"/><circle cx="130" cy="5" r="4" fill="#f36c12"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- flat electrode ribbon cable -->
+  <g>
+    <rect x="223" y="245" width="85" height="48" rx="5" fill="url(#ribbon)" stroke="#222" stroke-width="2"/>
+    <line x1="223" y1="250" x2="308" y2="250" stroke="#d71920" stroke-width="3"/>
+    <rect x="212" y="233" width="14" height="72" rx="3" fill="#111"/>
+    <rect x="305" y="233" width="14" height="72" rx="3" fill="#111"/>
+    <text class="caption" x="220" y="330" fill="#00a651">Electrode cable</text>
+  </g>
+
+  <!-- wide ribbon to BrainAmp -->
+  <g>
+    <rect x="496" y="245" width="110" height="48" rx="5" fill="url(#ribbon)" stroke="#222" stroke-width="2"/>
+    <line x1="496" y1="250" x2="606" y2="250" stroke="#d71920" stroke-width="3"/>
+    <rect x="493" y="233" width="16" height="72" rx="3" fill="#111"/>
+    <rect x="602" y="233" width="16" height="72" rx="3" fill="#111"/>
+    <text class="caption" x="504" y="330" fill="#0b73d9">Wide connection</text><text class="caption" x="533" y="352" fill="#0b73d9">cable</text>
+  </g>
+
+  <!-- BrainAmp + PowerPack -->
+  <g transform="translate(610 108)" filter="url(#shadow)">
+    <rect class="device" width="340" height="120" rx="9" fill="url(#panel)"/>
+    <rect class="device" y="128" width="340" height="120" rx="9" fill="url(#panel)"/>
+    <rect class="port" x="120" y="55" width="96" height="20" rx="3"/>
+    <text class="small" x="168" y="50" text-anchor="middle">Electrode input</text>
+    <circle cx="70" cy="70" r="5" fill="#00a651"/>
+    <text class="small" x="55" y="60">Power</text>
+    <text class="label" x="110" y="92" fill="#1d55b8">BRAINAMP</text>
+    <text class="label" x="110" y="182" fill="#1d55b8">POWERPACK</text>
+    <circle cx="290" cy="188" r="20" fill="#f6f6f6" stroke="#0b57b7" stroke-width="5"/>
+    <circle cx="290" cy="188" r="7" fill="#111"/>
+    <circle cx="294" cy="86" r="34" fill="#eee" opacity="0.75"/>
+    <text x="294" y="101" font-size="56" text-anchor="middle" fill="#ddd" font-family="Arial" font-weight="700">V</text>
+    <rect x="-10" y="92" width="16" height="36" rx="3" fill="#111"/><rect x="334" y="92" width="16" height="36" rx="3" fill="#111"/>
+    <rect x="-10" y="220" width="16" height="36" rx="3" fill="#111"/><rect x="334" y="220" width="16" height="36" rx="3" fill="#111"/>
+  </g>
+
+  <!-- BUA -->
+  <g transform="translate(1065 150)" filter="url(#shadow)">
+    <path d="M0,44 L230,44 L205,0 L25,0 Z" fill="#fafafa" stroke="#cfd4da" stroke-width="2"/>
+    <rect class="device" y="44" width="230" height="115" rx="4" fill="url(#panel)"/>
+    <text class="label" x="116" y="54" text-anchor="middle" fill="#1d55b8" font-size="18">USB2 Adapter</text>
+    <text class="small" x="30" y="92" text-anchor="middle">Optical Link</text>
+    <rect x="23" y="102" width="26" height="42" rx="4" fill="#eee" stroke="#777" stroke-width="2"/>
+    <text class="small" x="116" y="92" text-anchor="middle">Trigger / Parallel Port</text>
+    <rect x="82" y="105" width="72" height="24" rx="3" fill="#111" stroke="#777"/>
+    <g fill="#d6b77c">
+      <circle cx="92" cy="113" r="2"/><circle cx="100" cy="113" r="2"/><circle cx="108" cy="113" r="2"/><circle cx="116" cy="113" r="2"/><circle cx="124" cy="113" r="2"/><circle cx="132" cy="113" r="2"/><circle cx="140" cy="113" r="2"/>
+      <circle cx="96" cy="121" r="2"/><circle cx="104" cy="121" r="2"/><circle cx="112" cy="121" r="2"/><circle cx="120" cy="121" r="2"/><circle cx="128" cy="121" r="2"/><circle cx="136" cy="121" r="2"/>
+    </g>
+    <text class="small" x="198" y="92" text-anchor="middle">USB 2.0</text>
+    <rect x="184" y="100" width="32" height="50" rx="5" fill="#0b73d9" stroke="#064e9a" stroke-width="2"/>
+  </g>
+
+  <!-- Optical cable from top BrainAmp rear to BUA optical port -->
+  <g>
+    <path class="cable black" stroke-width="7" d="M952 180 C1000 180, 995 270, 1046 280 C1060 283, 1068 265, 1090 259"/>
+    <rect x="940" y="166" width="34" height="24" rx="4" fill="#444" stroke="#111" stroke-width="2"/>
+    <rect x="1084" y="244" width="34" height="24" rx="4" fill="#444" stroke="#111" stroke-width="2" transform="rotate(-8 1101 256)"/>
+    <text class="caption" x="983" y="365" fill="#ef6c00">Optical fiber</text><text class="caption" x="1005" y="388" fill="#ef6c00">cable</text>
+  </g>
+
+  <!-- Computer + cables -->
+  <g transform="translate(1390 130)" filter="url(#shadow)">
+    <rect x="0" y="0" width="95" height="220" rx="6" fill="#444"/>
+    <rect x="18" y="28" width="58" height="165" fill="#e9e9e9" stroke="#555"/>
+    <rect x="28" y="45" width="18" height="34" fill="#1c75bc"/><rect x="28" y="95" width="22" height="54" fill="#7b3fb2"/>
+    <rect x="28" y="158" width="18" height="34" fill="#1c75bc"/>
+    <rect x="116" y="20" width="150" height="95" rx="6" fill="#222"/><rect x="128" y="32" width="126" height="70" fill="#f7f7f7"/>
+    <text class="label" x="191" y="58" text-anchor="middle" font-size="18">Recording +</text>
+    <text class="label" x="191" y="80" text-anchor="middle" font-size="18">Stimulus</text>
+    <text class="label" x="191" y="102" text-anchor="middle" font-size="18">Computer</text>
+    <rect x="178" y="115" width="28" height="12" fill="#333"/><ellipse cx="191" cy="132" rx="55" ry="9" fill="#333"/>
+    <rect x="42" y="244" width="170" height="34" rx="4" fill="#222"/><ellipse cx="260" cy="258" rx="18" ry="25" fill="#222"/>
+  </g>
+
+  <!-- BUA to computer cables -->
+  <path class="cable purple" stroke-width="8" d="M1182 282 C1218 350, 1360 320, 1420 255"/>
+  <path class="cable blue" stroke-width="8" d="M1264 282 C1345 300, 1350 210, 1420 186"/>
+  <text class="caption" x="1282" y="300" fill="#7b3fb2">Trigger / parallel port cable</text>
+  <text class="caption" x="1300" y="230" fill="#0b73d9">USB cable</text>
+
+  <!-- Single computer scenario box -->
+  <g transform="translate(1385 375)">
+    <rect x="0" y="0" width="250" height="82" rx="12" fill="#fff" stroke="#f36c12" stroke-width="2" stroke-dasharray="5 4"/>
+    <circle cx="36" cy="41" r="22" fill="#f36c12"/><rect x="23" y="28" width="26" height="18" fill="none" stroke="#fff" stroke-width="3"/><line x1="36" y1="46" x2="36" y2="56" stroke="#fff" stroke-width="3"/><line x1="27" y1="57" x2="45" y2="57" stroke="#fff" stroke-width="3"/>
+    <text class="legend-title" x="72" y="26">Single-computer scenario:</text>
+    <text class="legend-sub" x="72" y="46">Stimulus presentation and</text>
+    <text class="legend-sub" x="72" y="62">recording are performed on</text>
+    <text class="legend-sub" x="72" y="78">the same machine.</text>
+  </g>
+</svg>
