@@ -9,7 +9,7 @@
 
 <div class="hardware-grid">
   <div class="hardware-card">
-    <img src="../../assets/brainamp/amplifier-powerpack.svg" alt="BrainAmp Standard 32ch and PowerPack schematic" />
+    <img src="https://brainvision.com/wp-content/uploads/2025/02/P_BAST_PowerPack.jpg" alt="BrainAmp Standard 32ch and PowerPack" />
     <h3>BrainAmp Standard 32ch + PowerPack</h3>
     <p><strong>BrainAmp Standard 32ch</strong> is the main EEG amplifier. It receives the EEG signal, amplifies it, digitizes it, and sends the 32-channel recording stream to the acquisition chain.</p>
     <p><strong>PowerPack</strong> supplies battery power to the amplifier system. Using battery power helps reduce mains-related line noise and keeps the recording chain electrically cleaner and more stable.</p>
@@ -17,7 +17,7 @@
   </div>
 
   <div class="hardware-card">
-    <img src="../../assets/brainamp/control-box.svg" alt="actiCAP ControlBox" />
+    <img src="https://brainvision.com/wp-content/uploads/2026/06/actiCAP_ControlBox.png" alt="actiCAP ControlBox" />
     <h3>actiCAP ControlBox</h3>
     <p>The ControlBox is the interface between the active cap system and the amplifier chain. It connects the actiCap to the BrainAmp hardware and enables <strong>actiCAP impedance measurement</strong>.</p>
     <p class="hardware-note"><strong>Practical note:</strong> if impedance check is unavailable, this is one of the first devices to inspect.</p>
