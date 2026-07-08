@@ -86,7 +86,7 @@
 The figure below shows the compact one-computer configuration. In this setup, the same workstation is used for both stimulus presentation and BrainVision Recorder. The actiCap connects to the actiCAP ControlBox through the electrode ribbon cable, the ControlBox connects to the BrainAmp Standard 32ch through the wide ribbon cable, and the BrainAmp connects to the USB2 Adapter (BUA) through the optical fiber cable. The BUA then connects to the computer using two separate cables: the purple trigger / parallel-port cable and the blue USB cable.
 
 <figure class="connection-figure" markdown>
-  ![One-computer BrainAmp connection setup](../assets/brainamp/one-computer-connection.svg)
+  ![One-computer BrainAmp connection setup](../assets/brainamp/one-computer-connection.png)
   <figcaption>One-computer BrainAmp recording setup: actiCap and ControlBox feed the BrainAmp amplifier; the BrainAmp connects to the BUA through optical fiber; the BUA sends data and event information to the same computer through USB and trigger / parallel-port connections.</figcaption>
 </figure>
 
