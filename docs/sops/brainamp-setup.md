@@ -81,31 +81,14 @@
   <p>Stimulus computer → trigger / event signal → BUA / Recorder workflow</p>
 </div>
 
-### Step-by-step connection order
+### One-computer connection figure
 
-1. **Prepare the participant-side hardware**  
-   Place the actiCap on the participant and prepare the active electrodes.
+The figure below shows the compact one-computer configuration. In this setup, the same workstation is used for both stimulus presentation and BrainVision Recorder. The actiCap connects to the actiCAP ControlBox through the electrode ribbon cable, the ControlBox connects to the BrainAmp Standard 32ch through the wide ribbon cable, and the BrainAmp connects to the USB2 Adapter (BUA) through the optical fiber cable. The BUA then connects to the computer using two separate cables: the purple trigger / parallel-port cable and the blue USB cable.
 
-2. **Connect the cap to the actiCAP ControlBox**  
-   Make sure the cap-side connection is seated firmly.
-
-3. **Connect the ControlBox to the BrainAmp Standard 32ch**  
-   This establishes the main EEG signal path.
-
-4. **Connect the PowerPack to the amplifier chain**  
-   Confirm that the battery is charged and the unit can support the full session.
-
-5. **Connect the amplifier chain to the USB2 Adapter (BUA)**  
-   This creates the interface path toward the recording computer.
-
-6. **Connect the BUA to the recording computer by USB**  
-   This computer should be the machine running BrainVision Recorder.
-
-7. **Connect the trigger / event source**  
-   If a separate stimulus computer is used, connect its trigger path into the recording workflow through the BUA.
-
-8. **Power on and verify detection**  
-   Turn on the devices in the lab's normal order and open the Recorder workspace.
+<figure class="connection-figure" markdown>
+  ![One-computer BrainAmp connection setup](../../assets/brainamp/one-computer-connection.svg)
+  <figcaption>One-computer BrainAmp recording setup: actiCap and ControlBox feed the BrainAmp amplifier; the BrainAmp connects to the BUA through optical fiber; the BUA sends data and event information to the same computer through USB and trigger / parallel-port connections.</figcaption>
+</figure>
 
 ## 3. Hardware connection test
 
